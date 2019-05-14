@@ -47,7 +47,7 @@
 			<key>CFBundleIdentifier</key>
 			<string>org.rehabman.voodoo.driver.PS2Controller</string>
 			<key>FindMouseDelay</key>
-			<integer>100</integer>
+			<integer>200</integer>
 			<key>IOClass</key>
 			<string>AppleACPIPS2Nub</string>
 			<key>IONameMatch</key>
