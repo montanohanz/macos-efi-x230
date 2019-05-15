@@ -1,2 +1,4 @@
-.Spotlight-V100/
-.Trashes/
+.Spotlight-V100/*
+.Trashes/*
+.Spotlight-v100
+.Trashes
