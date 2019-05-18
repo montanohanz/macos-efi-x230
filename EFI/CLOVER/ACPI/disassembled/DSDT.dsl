@@ -14713,6 +14713,9 @@ DefinitionBlock ("", "DSDT", 1, "LENOVO", "TP-G2   ", 0x00002650)
         {
             NVSS (Zero)
             Store (\_SB.PCI0.LPC.EC.AC._PSR (), PWRS)
+            \_SB.PCI0.LPC.EC.LED (Zero, 0x80)
+            \_SB.PCI0.LPC.EC.LED (0x0A, 0x80)
+            \_SB.PCI0.LPC.EC.LED (0x07, Zero)
             \_SB.PCI0.LPC.EC.LED (0x08, 0x80)
             If (OSC4)
             {
